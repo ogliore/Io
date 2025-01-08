@@ -423,7 +423,7 @@ for ii=1:numel(BUBBLES.DIAM)
     end
 end
 
-if doplot
+if doplots
     histogram(interstitial_diameter_microns)
     xlabel('Pyroclast diameter (microns)','FontSize',16);
     ylabel('Number','FontSize',16);
